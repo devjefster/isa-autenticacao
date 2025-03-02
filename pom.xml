@@ -8,10 +8,10 @@
         <version>3.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>back-office</artifactId>
+    <groupId>org.devjefster</groupId>
+    <artifactId>back-office-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>back-office</name>
-    <description>back-office</description>
+    <name>back-office-auth</name>
     <properties>
         <java.version>21</java.version>
         <org.mapstruct.version>1.6.3</org.mapstruct.version>
