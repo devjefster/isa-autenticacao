@@ -25,6 +25,15 @@ public class CriarUsuario {
 
             controller.createUser(dto);
         }
+        if (controller.getUserByEmail("isacarolinna23@gmail.com") == null) {
+            CriarUsuarioDTO dto = new CriarUsuarioDTO();
+            dto.setEmail("isacarolinna23@gmail.com");
+            dto.setNome("Isadora Carolina");
+            dto.setPassword("admin123");
+            dto.setTelefone("62991115292");
+
+            controller.createUser(dto);
+        }
 
     }
 }
